@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   get 'about-me', to: 'pages#about'
   get 'contact', to: 'pages#contact'
 
-  resources :blogs
-
+  resources :blogs, except: [:show]
+  get 'blog/:id', to: 'blogs#show', as: 'blog_show'
+  
   root to: 'pages#home'
 end
