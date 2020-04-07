@@ -49,4 +49,4 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 
-gem 'devcamp_view_tool', git: 'https://github.com/jordanhudgens/devcamp_view_tool.git'
+gem 'devcamp_view_tool', '~> 0.1.0'
